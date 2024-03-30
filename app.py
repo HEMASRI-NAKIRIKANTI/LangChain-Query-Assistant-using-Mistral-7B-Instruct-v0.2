@@ -11,8 +11,7 @@ import streamlit as st
 from langchain_openai import OpenAI
 
 #When deployed on huggingface spaces, this values has to be passed using Variables & Secrets setting, as shown in the video :)
-#import os
-#os.environ["OPENAI_API_KEY"] = "sk-PLfFwPq6y24234234234FJ1Uc234234L8hVowXdt"
+
 
 #Function to return the response
 def load_answer(question):
